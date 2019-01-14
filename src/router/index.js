@@ -7,7 +7,7 @@ import vOnClass from '@/views/example/v-on-class'
 import slotScope from '@/views/example/slot-scope'
 import computed from '@/views/example/computed'
 import introduce from '@/views/example/IntroduceCompontents'
-import translate from '@/views/example/translate'
+import transition from '@/views/example/transition'
 
 Vue.use(Router)
 
@@ -45,7 +45,7 @@ export default new Router({
         }, {
           path: '/example/translate',
           name: 'translate',
-          component: translate
+          component: transition
         }
       ]
     }
